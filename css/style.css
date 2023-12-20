@@ -35,4 +35,9 @@
 
 /* left-bar */
 
-#left-bar {}
+#left-bar {
+    background-color: #13293f;
+    background-image: url(/img/sidebar-bg.png);
+    width: 100px;
+    height: calc(100vh - 2.375rem);
+}
