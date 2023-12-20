@@ -99,38 +99,87 @@
         </nav>
 
     </header>
+    <!--  fine sezione header e navbar -->
 
-    <main>
-        <div class="container-fluid">
-            <div id="left-bar">
-                <div class="col">
-                    <div class="row justify-content-center">
 
-                        <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i>
-                            <span class="home d-none d-md-inline-block">Home</span>
+    <!-- container- -->
+
+    <!-- left bar -->
+
+
+    <div class="container-fluid d-flex">
+        <div id="left-bar">
+            <div class="col">
+                <div class="row d-flex flex-column justify-content-center">
+
+                    <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i>
+                        <span class="home d-none d-md-inline-block">Home</span>
+                    </button>
+                    <button type="button" class="btn btn-outline-light border-0"><i
+                            class="fa-solid fa-chart-simple"></i><span
+                            class="stats d-none d-md-inline-block">Stats</span></button>
+                    <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-signal"></i><span
+                            class="signals d-none d-md-inline-block">Signals</span></button>
+
+                    <button type="button" class="btn btn-outline-light border-0 mt-auto"><i
+                            class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
+                    </button>
+                </div>
+            </div>
+            <!-- main container -->
+
+        </div>
+        <main id="main-container">
+
+            <!-- main-top con offcanvas -->
+            <div class="main-top">
+                <div class="col-12">
+                    <div class="row d-flex">
+
+                        <button class="btn btn-outline-light border-0 d-flex flex-direction-start m-3" type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <span>Nuovo Studente</span>
+                            <i class="fa-solid fa-square-plus plus"></i>
                         </button>
-                        <button type="button" class="btn btn-outline-light border-0"><i
-                                class="fa-solid fa-chart-simple"></i><span
-                                class="stats d-none d-md-inline-block">Stats</span></button>
-                        <button type="button" class="btn btn-outline-light border-0"><i
-                                class="fa-solid fa-signal"></i><span
-                                class="signals d-none d-md-inline-block">Signals</span></button>
 
-                        <button type="button" class="btn btn-outline-light border-0 mt-auto"><i
-                                class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
-                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                ...
+                            </div>
+                        </div>
 
 
 
 
                     </div>
+
+                </div>
+
+                <div class="col-12">
+                    <div class="row">
+                        <span>Boolean</span>
+                    </div>
+
                 </div>
 
             </div>
+            <div class="main-bottom"></div>
 
-        </div>
 
-    </main>
+
+
+        </main>
+
+
+    </div>
+
+
 
 
 

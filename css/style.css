@@ -45,6 +45,28 @@ ul {
 #left-bar {
     background-color: #13293f;
     background-image: url(/img/sidebar-bg.png);
-    width: 150px;
+    width: 80px;
     height: calc(100vh - 2.375rem);
+}
+
+/*  */
+
+#main-container {
+    width: calc(100% - 80px);
+}
+
+.main-top {
+    background-color: #1b72e8;
+    height: 200px;
+
+}
+
+/* media query left bar */
+@media screen and (min-width:768px) {
+
+    #left-bar {
+
+        width: 150px;
+
+    }
 }
