@@ -3,6 +3,7 @@
     width: 50px;
 }
 
+/* */
 #nav .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -19,6 +20,19 @@
     padding-left: 2.375rem;
 }
 
-.bi {
-    color: orange;
+.form-group {
+    position: relative;
+    width: 70%;
 }
+
+.icon-header {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+
+
+}
+
+/* left-bar */
+
+#left-bar {}
