@@ -1,3 +1,10 @@
+/* reset */
+
+ul {
+    list-style: none;
+}
+
+
 .logo-small {
     height: 50px;
     width: 50px;
@@ -38,6 +45,6 @@
 #left-bar {
     background-color: #13293f;
     background-image: url(/img/sidebar-bg.png);
-    width: 100px;
+    width: 150px;
     height: calc(100vh - 2.375rem);
 }
