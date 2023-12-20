@@ -49,16 +49,23 @@ ul {
     height: calc(100vh - 2.375rem);
 }
 
-/*  */
+/* main container */
 
 #main-container {
     width: calc(100% - 80px);
 }
 
+/* main top */
+
 .main-top {
     background-color: #1b72e8;
     height: 200px;
 
+}
+
+#plus {
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 /* media query left bar */
