@@ -163,7 +163,7 @@
                                             <input type="text" name="cognome" id="cognome" class="form-control"
                                                 placeholder="Inserire cognome">
                                         </div>
-                                        <div class="input-group  col-md-6">
+                                        <div class="col-12  col-md-6">
                                             <span class="input-group-text" id="basic-addon1">@</span>
                                             <input type="text" class="form-control" placeholder="Username"
                                                 aria-label="Username" aria-describedby="basic-addon1">
@@ -242,110 +242,177 @@
             <div class="main-bottom">
                 <div class="row d-flex">
                     <div class="col-12 col-md-7 m-3 py-4">
-                        <table class="table  ">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="colspan">Prossime classi</th>
-                                </tr>
-                                <tr>
-                                    <th scope="col">Nome</th>
-                                    <th scope="col" class="d-none d-md-inline-block">Data inizio</th>
-                                    <th scope="col">ROI</th>
-                                    <th scope="col">Stato</th>
-                                    <th scope="col">Azioni</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 75
-                                    </th>
-                                    <td>15 Febbraio</td>
-                                    <td>20%</td>
-                                    <td>done</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
+                        <div class="card">
+                            <div class="card-header">
+                                Prossime classi
+                            </div>
+                            <table class="table ">
+                                <thead>
+                                    <!-- <tr>
+                                    <th scope="col" class="colspan  class=" w-50 ">Prossime classi</th>
+                                </tr> -->
+                                    <tr>
+                                        <th scope=" col" class=" table-cell-w">Nome</th>
+                                        <th scope="col">Data inizio</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 75
+                                        </th>
+                                        <td>15 Febbraio</td>
+                                        <td>20%</td>
+                                        <td>done</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
 
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 76
-                                    </th>
-                                    <td>16 Febbraio</td>
-                                    <td>20%</td>
-                                    <td>done</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 77
-                                    </th>
-                                    <td>17 Febbario</td>
-                                    <td>20%</td>
-                                    <td>process</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 78
-                                    </th>
-                                    <td>18 Febbario</td>
-                                    <td>20%</td>
-                                    <td>done</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 79
-                                    </th>
-                                    <td>19 Febbario</td>
-                                    <td>20%</td>
-                                    <td>failed</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 80
-                                    </th>
-                                    <td>20 Febbario</td>
-                                    <td>20%</td>
-                                    <td>done</td>
-                                    <td><i class="fa-solid fa-square-pen m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 81
-                                    </th>
-                                    <td>21 Febbario</td>
-                                    <td>20%</td>
-                                    <td>failed</td>
-                                    <td><i class="fa-solid fa-square-pen  m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><img src="./img/class-avatar.jpg" alt="" class="img-table">Classe 82
-                                    </th>
-                                    <td>22 Febbario</td>
-                                    <td>20%</td>
-                                    <td>done</td>
-                                    <td><i class="fa-solid fa-square-pen  m-1"></i><i
-                                            class="fa-sharp fa-solid fa-trash"></i>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 76
+                                        </th>
+                                        <td>16 Febbraio</td>
+                                        <td>20%</td>
+                                        <td>done</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 77
+                                        </th>
+                                        <td>17 Febbario</td>
+                                        <td>20%</td>
+                                        <td>process</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 78
+                                        </th>
+                                        <td>18 Febbario</td>
+                                        <td>20%</td>
+                                        <td>done</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 79
+                                        </th>
+                                        <td>19 Febbario</td>
+                                        <td>20%</td>
+                                        <td>failed</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 80
+                                        </th>
+                                        <td>20 Febbario</td>
+                                        <td>20%</td>
+                                        <td>done</td>
+                                        <td><i class="fa-solid fa-square-pen m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 81
+                                        </th>
+                                        <td>21 Febbario</td>
+                                        <td>20%</td>
+                                        <td>failed</td>
+                                        <td><i class="fa-solid fa-square-pen  m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="./img/class-avatar.jpg" alt=""
+                                                class="img-table">Classe 82
+                                        </th>
+                                        <td>22 Febbario</td>
+                                        <td>20%</td>
+                                        <td>done</td>
+                                        <td><i class="fa-solid fa-square-pen  m-1"></i><i
+                                                class="fa-sharp fa-solid fa-trash"></i>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="fs-3">F.A.Q.</strong>
+                            </div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Come aggiungere un nuovo studente?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Clicca sul + in alto nella sezione blu.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Come posso accedere alla informazioni del mio account?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Clicca sull'icona della campanella</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Posso usare questa dashboard da mobile?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Si puoi utilizzare benissimo questa dashboard comodamente dal tuo
+                                                mobile</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 

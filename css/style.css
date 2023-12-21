@@ -75,6 +75,10 @@ ul {
     height: 30px;
 }
 
+.table-cell-w {
+    width: 50%;
+}
+
 /* media query left bar */
 @media screen and (min-width:768px) {
 
