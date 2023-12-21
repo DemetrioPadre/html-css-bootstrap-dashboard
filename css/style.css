@@ -68,12 +68,17 @@ ul {
     margin-left: 10px;
 }
 
+/* main buttom */
+
+.img-table {
+    width: 30px;
+    height: 30px;
+}
+
 /* media query left bar */
 @media screen and (min-width:768px) {
 
     #left-bar {
-
         width: 150px;
-
     }
 }
