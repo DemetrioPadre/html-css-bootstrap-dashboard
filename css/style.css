@@ -9,7 +9,13 @@ ul {
     width: 50px;
 }
 
+
+
 /* */
+#nav {
+    height: 60px;
+}
+
 #nav .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -45,13 +51,15 @@ ul {
     background-color: #13293f;
     background-image: url(/img/sidebar-bg.png);
     width: 80px;
-    height: calc(100vh - 2.375rem);
+    height: calc(100vh - 60px);
 }
 
 /* main container */
 
 #main-container {
     width: calc(100% - 80px);
+    height: calc(100vh - 60px);
+    overflow: scroll;
 }
 
 /* main top */
