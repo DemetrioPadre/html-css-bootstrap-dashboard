@@ -50,7 +50,7 @@
                             placeholder=" Prova a cercare: Lezioni di Laravel" aria-label="Search" />
 
 
-                        <!-- link vari -->
+                        <!-- link vari optnion nav-bar -->
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
                                 style="--bs-scroll-height: 100px;">
@@ -77,8 +77,9 @@
                                     <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         <i class="fa-solid fa-bell" style="color: #ed8002;"></i>
-                                        <!-- fix bell sotto una certa -->
+
                                     </a>
+                                    <!-- drop-down menu campanella  -->
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i>
                                                 Profilo</a></li>
@@ -90,6 +91,7 @@
                                         <li><a class="dropdown-item" href="#"><i
                                                     class="fa-solid fa-arrow-right-from-bracket"></i> log-out</a></li>
                                     </ul>
+                                    <!-- fine dropdown campanella -->
                                 </li>
                             </ul>
                         </div>
@@ -124,6 +126,7 @@
                     </button>
                 </div>
             </div>
+            <!-- fine del left bar -->
             <!-- main container -->
 
         </div>
@@ -133,6 +136,8 @@
             <div class="main-top">
                 <div class="row ">
                     <div class="col-12 col-lg-4 ">
+
+                        <!-- bottone nuovo studente (da fixare bene il colore) -->
 
                         <button class="btn btn-btn-primary border-0 d-flex flex-direction-start " type="button"
                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -152,38 +157,46 @@
                             <!-- lista del canvas -->
                             <div class="offcanvas-body">
                                 <div class="row">
+                                    <!-- offcanvas-nome -->
                                     <form action="" target="_blank" class="row justify-content-center g-4">
                                         <div class="col-12 col-md-6">
                                             <label for="nome" class="form-label">Nome</label>
                                             <input type="text" name="nome" id="nome" class="form-control"
                                                 placeholder="Inserire Nome">
                                         </div>
+                                        <!-- offcanvas cognome -->
                                         <div class="col-12 col-md-6">
                                             <label for="cognome" class="form-label">Cognome</label>
                                             <input type="text" name="cognome" id="cognome" class="form-control"
                                                 placeholder="Inserire cognome">
                                         </div>
+                                        <!-- offcanvas email -->
                                         <div class="col-12  col-md-6">
                                             <span class="input-group-text" id="basic-addon1">@</span>
                                             <input type="text" class="form-control" placeholder="Username"
                                                 aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
+
+                                        <!-- offcanvas password -->
                                         <div class="col-12 col-md-6 ">
                                             <label for="password" class="form-label">Password</label>
                                             <input type="password" name="password" id="password"
                                                 class="form-control input-group-text" placeholder="Inserire password">
                                         </div>
+                                        <!--  offcanvas address -->
                                         <div class="col-12">
                                             <label for="address" class="form-label">Indirizzo</label>
                                             <input type="text" name=" indirizzo" id="indirizzo"
                                                 class="form-control input-group-text"
                                                 placeholder="Inserire indirizzo Studente">
                                         </div>
+                                        <!-- offcanvas città -->
                                         <div class="col-12 col-md-5">
                                             <label for="città" class="form-label">Città</label>
                                             <input type="text" name="città" id="città"
                                                 class="form-control input-group-text" placeholder="Inserire città">
                                         </div>
+                                        <!-- offcanvas stato -->
                                         <div class="col-12 col-md-3">
                                             <label for="stato" class="form-label">Stato</label>
                                             <div class="input-group">
@@ -197,11 +210,13 @@
 
                                             </div>
                                         </div>
+                                        <!-- offcanvas CAP -->
                                         <div class="col-12 col-md-2">
                                             <label for="CAP" class="form-label">CAP</label>
                                             <input type="text" name="CAP" class="form-control input-group-text"
                                                 placeholder="CAP">
                                         </div>
+                                        <!-- offcanvas  inserimento foto-->
                                         <div class="input-group col-12">
                                             <label for="foto" class="form-label">Foto</label>
                                             <input type="file" class="form-control" id="inputGroupFile04"
@@ -209,6 +224,7 @@
 
                                         </div>
                                         <div>
+                                            <!-- offcanvas selezione checkbox -->
                                             <input type="checkbox" name="seleziona per proseguire"
                                                 id="seleziona per proseguire"><span>Seleziona per proseguire</span>
                                         </div>
@@ -222,6 +238,7 @@
                         </div>
 
                     </div>
+                    <!-- fine offcanvas  -->
 
                     <div class="col-12 col-lg-4">
                         <span>Boolean</span>
@@ -240,6 +257,7 @@
 
             <!-- MAIN BOTTOM -->
             <div class="main-bottom container-fluid">
+                <!-- prima tabella -->
 
                 <div class="row g-4 ">
                     <div class="col-12 col-md-8 py-4">
@@ -267,7 +285,7 @@
                                         </th>
                                         <td>15 Febbraio</td>
                                         <td>20%</td>
-                                        <td>done</td>
+                                        <td class="badge text-bg-success my-2">done</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -280,7 +298,7 @@
                                         </th>
                                         <td>16 Febbraio</td>
                                         <td>20%</td>
-                                        <td>done</td>
+                                        <td class="badge text-bg-success my-2">done</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -292,7 +310,7 @@
                                         </th>
                                         <td>17 Febbario</td>
                                         <td>20%</td>
-                                        <td>process</td>
+                                        <td class="badge text-bg-warning my-2">process</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -303,7 +321,7 @@
                                         </th>
                                         <td>18 Febbario</td>
                                         <td>20%</td>
-                                        <td>done</td>
+                                        <td class="badge text-bg-success my-2">done</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -315,7 +333,7 @@
                                         </th>
                                         <td>19 Febbario</td>
                                         <td>20%</td>
-                                        <td>failed</td>
+                                        <td class="badge text-bg-danger my-2">failed</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -327,7 +345,7 @@
                                         </th>
                                         <td>20 Febbario</td>
                                         <td>20%</td>
-                                        <td>done</td>
+                                        <td class="badge text-bg-success my-2">done</td>
                                         <td><i class="fa-solid fa-square-pen m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -339,7 +357,7 @@
                                         </th>
                                         <td>21 Febbario</td>
                                         <td>20%</td>
-                                        <td>failed</td>
+                                        <td class="badge text-bg-danger my-2">failed</td>
                                         <td><i class="fa-solid fa-square-pen  m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -351,7 +369,7 @@
                                         </th>
                                         <td>22 Febbario</td>
                                         <td>20%</td>
-                                        <td>done</td>
+                                        <td class="badge text-bg-success my-2">done</td>
                                         <td><i class="fa-solid fa-square-pen  m-1"></i><i
                                                 class="fa-sharp fa-solid fa-trash"></i>
                                         </td>
@@ -360,6 +378,8 @@
                                 </tbody>
                             </table>
                         </div>
+                        <!-- fine prima tabella -->
+                        <!-- seconda tabella con scomparsa accordion -->
                         <div class="card my-4">
                             <div class="card-header">
                                 <strong class="fs-3">F.A.Q.</strong>
@@ -415,6 +435,8 @@
 
                         </div>
                     </div>
+                    <!-- fine accordion -->
+                    <!-- card todo -->
                     <div class="col-12 col-md-4 py-4">
                         <div class="card">
                             <div class="card-header">
@@ -432,6 +454,9 @@
                                     GitHub studenti</li>
                             </ul>
                         </div>
+                        <!-- fine card todo -->
+
+                        <!-- card statistica -->
                         <div class="card my-4">
                             <img src=" ./img/stats.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -449,32 +474,10 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
-
-
-
             </div>
-
-
-
-
         </main>
-
-
     </div>
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
