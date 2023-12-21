@@ -110,20 +110,20 @@
     <div class="container-fluid d-flex p-0">
         <div id="left-bar">
             <div class="col">
-                <div class="row d-flex flex-column justify-content-center">
-
-                    <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i>
-                        <span class="home d-none d-md-inline-block">Home</span>
-                    </button>
-                    <button type="button" class="btn btn-outline-light border-0"><i
-                            class="fa-solid fa-chart-simple"></i><span
-                            class="stats d-none d-md-inline-block">Stats</span></button>
-                    <button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-signal"></i><span
-                            class="signals d-none d-md-inline-block">Signals</span></button>
-
-                    <button type="button" class="btn btn-outline-light border-0 mt-auto"><i
-                            class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
-                    </button>
+                <div class="row d-flex flex-column justify-content-between">
+                    <div><button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i>
+                            <span class="home d-none d-md-inline-block">Home</span>
+                        </button>
+                        <button type="button" class="btn btn-outline-light border-0"><i
+                                class="fa-solid fa-chart-simple"></i><span
+                                class="stats d-none d-md-inline-block">Stats</span></button>
+                        <button type="button" class="btn btn-outline-light border-0"><i
+                                class="fa-solid fa-signal"></i><span
+                                class="signals d-none d-md-inline-block">Signals</span></button>
+                    </div>
+                    <div><button type="button" class="btn btn-outline-light border-0 mt-auto"><i
+                                class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
+                        </button></div>
                 </div>
             </div>
             <!-- fine del left bar -->
@@ -172,7 +172,7 @@
                                         </div>
                                         <!-- offcanvas email -->
                                         <div class="col-12  col-md-6">
-                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                            <label for="email" class="form-label">Email</label>
                                             <input type="text" class="form-control" placeholder="Username"
                                                 aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
@@ -447,11 +447,13 @@
                                     classi
                                 </li>
                                 <li class="list-group-item"><input type="checkbox" name="" id=""> Lezione su
-                                    Bootstrap 5
-                                    in classe #75</li>
+                                    <i class="fa-brands fa-bootstrap"></i>
+                                    in classe #75
+                                </li>
                                 <li class="list-group-item"><input type="checkbox" name="" id=""> Controllare
                                     usarname
-                                    GitHub studenti</li>
+                                    <i class="fa-brands fa-github"></i> studenti
+                                </li>
                             </ul>
                         </div>
                         <!-- fine card todo -->
