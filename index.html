@@ -110,8 +110,9 @@
     <div class="container-fluid d-flex p-0">
         <div id="left-bar">
             <div class="col">
-                <div class="row d-flex flex-column justify-content-between">
-                    <div><button type="button" class="btn btn-outline-light border-0"><i class="fa-solid fa-house"></i>
+                <div class="row d-flex flex-column h-100 admin">
+                    <div class="flex-grow-1"><button type="button" class="btn btn-outline-light border-0"><i
+                                class="fa-solid fa-house"></i>
                             <span class="home d-none d-md-inline-block">Home</span>
                         </button>
                         <button type="button" class="btn btn-outline-light border-0"><i
@@ -121,9 +122,11 @@
                                 class="fa-solid fa-signal"></i><span
                                 class="signals d-none d-md-inline-block">Signals</span></button>
                     </div>
-                    <div><button type="button" class="btn btn-outline-light border-0 mt-auto"><i
+                    <div>
+                        <button type="button" class="btn btn-outline-light border-0 mt-auto"><i
                                 class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
-                        </button></div>
+                        </button>
+                    </div>
                 </div>
             </div>
             <!-- fine del left bar -->
@@ -134,14 +137,14 @@
 
             <!-- main-top con offcanvas -->
             <div class="main-top">
-                <div class="row ">
+                <div class="row">
                     <div class="col-12 col-lg-4 ">
 
                         <!-- bottone nuovo studente (da fixare bene il colore) -->
 
                         <button class="btn btn-btn-primary border-0 d-flex flex-direction-start " type="button"
                             data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <span>Nuovo Studente</span>
+                            <span class="student">Nuovo Studente</span>
                             <i class="fa-solid fa-square-plus" id="plus"></i>
                         </button>
 
@@ -229,8 +232,8 @@
                                                 id="seleziona per proseguire"><span>Seleziona per proseguire</span>
                                         </div>
                                         <div>
-                                            <button type="button" class="btn btn-primary">Salva</button>
-                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type=" reset" class="btn btn-warning">Svuota</button>
                                         </div>
                                     </form>
                                 </div>
@@ -240,11 +243,11 @@
                     </div>
                     <!-- fine offcanvas  -->
 
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 my-4">
                         <span>Boolean</span>
                     </div>
 
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-4 ">
                         <p>Studenti Online negli ultimi 30 minuti </p>
                         <span>125</span>
                     </div>

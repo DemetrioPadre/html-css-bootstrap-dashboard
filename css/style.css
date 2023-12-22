@@ -54,6 +54,11 @@ ul {
     height: calc(100vh - 60px);
 }
 
+.admin {
+    height: calc(100vh - 80px) !important;
+
+}
+
 /* main container */
 
 #main-container {
@@ -68,12 +73,20 @@ ul {
     background-color: #1b72e8;
     height: 200px;
     color: white;
+}
 
+
+
+.student {
+    color: white;
+    padding-top: 10px;
 }
 
 #plus {
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
+    color: white;
+
 }
 
 /* main buttom */
