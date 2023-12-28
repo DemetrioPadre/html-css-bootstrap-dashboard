@@ -86,7 +86,10 @@ ul {
     font-size: 40px;
     margin-left: 10px;
     color: white;
+}
 
+#offcanvasRight {
+    width: 100%;
 }
 
 /* main buttom */
@@ -106,4 +109,6 @@ ul {
     #left-bar {
         width: 150px;
     }
+
+
 }
