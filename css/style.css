@@ -75,21 +75,43 @@ ul {
     color: white;
 }
 
-
-
-.student {
-    color: white;
-    padding-top: 10px;
+.title-column-b {
+    padding: 20px;
 }
 
-#plus {
-    font-size: 40px;
-    margin-left: 10px;
+.boolean {
+    font-size: 30px;
+
+}
+
+.badge-main-top {
+    background-color: #1258b9;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+
+
+/* .student { 
+
+    padding-top: 10px;
+}*/
+
+/**/
+.add-student {
+    border-radius: 10px;
+    background-color: inherit;
     color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+
+    width: 50px;
+    height: 50px;
 }
 
 #offcanvasRight {
-    width: 100%;
+    width: 70%;
 }
 
 /* main buttom */

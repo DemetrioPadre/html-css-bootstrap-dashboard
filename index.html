@@ -110,7 +110,7 @@
     <div class="container-fluid d-flex p-0">
         <div id="left-bar">
             <div class="col">
-                <div class="row d-flex flex-column h-100 admin">
+                <div class="row d-flex flex-column h-100 admin my-4">
                     <div class="flex-grow-1"><button type="button" class="btn btn-outline-light border-0"><i
                                 class="fa-solid fa-house"></i>
                             <span class="home d-none d-md-inline-block">Home</span>
@@ -123,7 +123,7 @@
                     </div>
                     <div>
                         <button type="button" class="btn btn-outline-light border-0 mt-auto"><i
-                                class="fa-solid fa-gear"></i><span class="gear d-none d-md-inline-block">Admin</span>
+                                class="fa-solid fa-gear"></i> <span class="gear d-none d-md-inline-block">Admin</span>
                         </button>
                     </div>
                 </div>
@@ -135,16 +135,33 @@
         <main id="main-container">
 
             <!-- main-top con offcanvas -->
-            <div class="main-top">
+            <div class="main-top py-4">
                 <div class="row">
-                    <div class="col-12 col-lg-4 ">
+                    <div class="col-sm-4 col-lg-6   order-2 order-sm-0 title-column-b">
+                        <span class="boolean">Boolean</span>
+                        <span class=" badge-main-top">Piano blaze</span> <br>
+                        <span class="badge-main-top">3 app</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                        <span class="badge-main-top">+</span>
+                        <span class="badge-main-top d-none d-md-inline-block">Boolean mobile app</span>
+                        <span class="badge-main-top d-none d-md-inline-block">Boolean web app</span>
+                        <span class="badge-main-top d-none d-md-inline-block">Boolean blog app</span>
+
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 order-3 order-sm-0 ">
+                        <p>Studenti Online negli ultimi 30 minuti </p>
+                        <h3>125</h3>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-2  order-1 order-sm-0 d-flex ">
 
                         <!-- bottone nuovo studente (da fixare bene il colore) -->
+                        <span class="student">Nuovo Studente</span>
 
-                        <button class="btn btn-btn-primary border-0 d-flex flex-direction-start " type="button"
-                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                            <span class="student">Nuovo Studente</span>
-                            <i class="fa-solid fa-square-plus" id="plus"></i>
+                        <button class="add-student   " type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-plus"></i>
                         </button>
 
                         <div class="offcanvas    offcanvas-end" tabindex="-1" id="offcanvasRight"
@@ -241,15 +258,6 @@
 
                     </div>
                     <!-- fine offcanvas  -->
-
-                    <div class="col-12 col-lg-4 my-4">
-                        <span>Boolean</span>
-                    </div>
-
-                    <div class="col-12 col-lg-4 ">
-                        <p>Studenti Online negli ultimi 30 minuti </p>
-                        <span>125</span>
-                    </div>
 
                 </div>
 
